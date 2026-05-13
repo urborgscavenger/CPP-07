@@ -1,12 +1,6 @@
 #include "iter.hpp"
 #include <cctype>
 
-template <typename T>
-void PrintElement(const T &value)
-{
-	WriteLine("- " + ToString(value));
-}
-
 void IncrementInt(int &value)
 {
 	++value;

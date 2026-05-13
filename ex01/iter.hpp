@@ -30,4 +30,10 @@ inline void WriteLine(const string &line)
 	std::cout << line << std::endl;
 }
 
+template <typename T>
+void PrintElement(const T &value)
+{
+	WriteLine("- " + ToString(value));
+}
+
 #endif
